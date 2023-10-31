@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Main {
 
-    public static int MAX = 1000, VIIVE = 0, THREADS = 5;
+    public static int ARVAUS_MAX = 1000, VIIVE = 0, THREADS = 5;
 
     public static void main(String[] args) {
         List<Pelaaja> pelaajat = new ArrayList<>();

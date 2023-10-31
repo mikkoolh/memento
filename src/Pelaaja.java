@@ -27,7 +27,7 @@ public class Pelaaja extends Thread{
         return false;
     }
     private boolean arvaa(){
-        arvaus = random.nextInt(Main.MAX + 1);
+        arvaus = random.nextInt(Main.ARVAUS_MAX + 1);
         return arvuuttaja.arvaa(memento, arvaus);
     }
     private void hidasta(){
